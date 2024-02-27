@@ -17,6 +17,10 @@ Generate with random id
 ```
 $ ./autogenerate.sh $RANDOM
 ```
+Check generated VM with its IP address
+```
+virsh net-dhcp-leases default
+```
 
 Destroy (stop) and remove VM
 ```
