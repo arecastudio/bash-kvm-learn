@@ -3,7 +3,7 @@
 users:
   - name: ubuntu
     ssh_authorized_keys:
-      - ssh-ed25519 A-blah-blah-blah host@user 
+      - ssh-ed25519 blah-blah-blah host@user 
     sudo: ["ALL=(ALL) NOPASSWD:ALL"]
     groups: sudo
     shell: /bin/bash
