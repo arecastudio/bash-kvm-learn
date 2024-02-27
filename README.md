@@ -1,5 +1,5 @@
-# bash-terraform-learn
-Practical Terraform combined with bash script
+# bash-kvm-learn
+Practical libvirt to create `vm` and in `linux`
 
 ### Download Ubuntu cloud image from its official repo
 ```
