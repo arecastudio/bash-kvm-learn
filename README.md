@@ -26,3 +26,7 @@ Destroy (stop) and remove VM
 ```
 $ ./destroyall.sh
 ```
+To clean up virual network leases, for example we use `virbr0` then replace the file content with empty array
+```
+echo "[]" > /var/lib/libvirt/dnsmasq/virbr0.status
+```
